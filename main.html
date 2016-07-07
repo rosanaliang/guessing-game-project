@@ -1,20 +1,28 @@
+<!DOCTYPE html>
 <html>
 <head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"> </script>
+	<!--<script src="jquery-3.0.0.js"></script>-->
+	<script src="main.js"></script>
 	<link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
 <center>
 	<h1><img src="images/banner.png" alt="Rosana's Guessing Game" width="600"></h1>
 	<h2>Guess The Number!</h2>
-	<div class="form">
- 		<form>
-  			<input type="text" id="submission" placeholder="Input Number 1-100"><br><br>
-  			<button type="button">Submit Your Guess</button>
- 		</form>
-  		<button type="button">Play Again</button>
-  		<button type="button">Give me a Hint</button>
-	</div>
-	<p>5 Guesses Remaining</p>
+	<div id="form">
+  		<input type="number" id="submission" placeholder="Input Number 1-100">
+  	</div>
+  	<br>
+  	<p id="status"></p><br>
+  	<div id="buttons">
+  		<button type="button" id="submitButton">Submit Your Guess</button><br><br>
+  		<button type="button" id="playAgain">Play Again</button>
+  		<button type="button" id="giveMeAHint">Give me a Hint</button>
+	</div><br>
+	<p id="hint"></p>
+	<p id="guessesRemaining">5 GUESSES REMAINING</p>
+	<!--<img src="images/winner.png" alt="You Are A Winner" id="winningImage">-->
 </center>
 </body>
 </html>

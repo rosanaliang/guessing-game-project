@@ -23,19 +23,13 @@ h2 {
 	color: #000000;
 }
 
-.form {
-	background-color: #7BCEF8;
-	background-size: 300px;
-	padding: 20px;
-}
-
 input[type=submit] {
 	width: 140px;
 	font-size: 30px;
 	font-family: Helvetica, Ariel, sans-serif;
 }
 
-input[type=text] {
+input[type=number] {
 	width: 175px;
 	font-size: 15px;
 	text-transform: uppercase;
