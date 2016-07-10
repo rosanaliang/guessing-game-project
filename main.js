@@ -26,7 +26,7 @@ function generateRandomNumber(min, max){
 }
 
 function onPlayersGuessSubmission(guessArray, winningNumber){ 
-	if (guessArray.length === 5){
+	if (guessArray.length === 5 || guessArray[guessArray.length - 1] === winningNumber){
 		return;
 	}
 
